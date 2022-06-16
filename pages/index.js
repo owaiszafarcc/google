@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Image from 'next/image';
 import { SearchIcon, MicrophoneIcon } from "@heroicons/react/solid";
+import Footer from '../components/Footer';
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -40,6 +41,8 @@ export default function Home() {
       </form>
 
       {/* Footer */}
+
+      <Footer />
 
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
