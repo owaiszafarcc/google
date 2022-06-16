@@ -5,7 +5,7 @@ import { SearchIcon, MicrophoneIcon } from "@heroicons/react/solid";
 import Footer from '../components/Footer';
 // import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router';
-import { useRef } from 'react/cjs/react.production.min';
+import { useRef } from 'react';
 
 export default function Home() {
   const router = useRouter();
